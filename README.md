@@ -17,7 +17,7 @@ npm i
 ```
 
 ### 3. Get your Croquet API Key:
-- Go to [https://croquet.io/keys]()
+- Go to [https://croquet.io/keys](https://croquet.io/keys)
 - Register for a free account and obtain your API Key
 
 ### 4. Configure your Croquet credentials:
