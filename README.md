@@ -15,7 +15,7 @@ In your terminal, make sure you have `npm` installed.
 Then, go to your repo directory and run:
 
 ```bash
-$ npm i
+npm i
 ```
 
 ### 3. Get your Multisynq API Key:
@@ -26,20 +26,20 @@ $ npm i
 
 - Create a `.env` file (you can copy from `example.env`)
 ```bash
-$ cp .env.example .env
+cp .env.example .env
 ```
 
 - Replace the placeholders with your actual credentials:
-```bash
-VITE_APP_ID: dev.reacttogether.your-app-name # You can choose any name
-VITE_API_KEY: <<YOUR_API_KEY>> # Your Multisynq API key
+```
+VITE_APP_ID=dev.reacttogether.your-app-name
+VITE_API_KEY= # <-- Insert your Multisynq API key
 ```
 
 ### 5. Start the development server:
 
 In your terminal, run
 ```bash
-$ npm run dev
+npm run dev
 ```
 
 ### 6. Deploy your project to Cloudflare Pages
