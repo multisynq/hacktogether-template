@@ -10,18 +10,20 @@ Follow these steps to set up your project:
 
 ### 2. Install dependencies:
 ```
-bun i
-
-(or if you're using npm)
-npm i
+$ npm i
 ```
 
-### 3. Get your Croquet API Key:
-- Go to [https://croquet.io/keys](https://croquet.io/keys)
+### 3. Get your Multisynq API Key:
+- Go to [https://multisynq.io/account](https://multisynq.io/account)
 - Register for a free account and obtain your API Key
 
 ### 4. Configure your Croquet credentials:
+
 - Create a `.env` file (you can copy from `example.env`)
+```
+$ cp .env.example .env
+```
+
 - Replace the placeholders with your actual credentials:
 ```
 VITE_APP_ID: <<YOUR_APP_ID>>
@@ -29,10 +31,8 @@ VITE_API_KEY: <<YOUR_API_KEY>>
 ```
 
 ### 5. Start the development server:
-```
-bun dev
 
-(or if you're using npm)
+```
 npm run dev
 ```
 
