@@ -33,6 +33,8 @@ cp .env.example .env
 ```
 VITE_APP_ID=dev.reacttogether.your-app-name
 VITE_API_KEY= # <-- Insert your Multisynq API key
+VITE_SESSION_NAME="Any session name you want"
+VITE_SESSION_NAME="Any password you want!"
 ```
 
 ### 5. Start the development server:
